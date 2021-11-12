@@ -1,0 +1,21 @@
+.home-container {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: #ef5da8;
+  line-height: 42px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
